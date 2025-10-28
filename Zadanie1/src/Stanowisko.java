@@ -6,7 +6,7 @@ public enum Stanowisko {
     STAZYSTA("Stażysta", 3000, 1);
 
     private final String nazwaPrzyjazna;
-    private final double wynagrodzenie; // Zmieniono nazwę pola
+    private final double wynagrodzenie;
     private final int poziomHierarchii;
 
     Stanowisko(String nazwaPrzyjazna, double wynagrodzenie, int poziomHierarchii) {
@@ -25,4 +25,5 @@ public enum Stanowisko {
     public String toString() {
         return this.nazwaPrzyjazna;
     }
+
 }
